@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+
+    <title>Oficialmente Donna</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-image">
+                <a href=""><img src="imagens/donna logo pronto.jpg"></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="/">Home</a></li>
+                        <li><a href="depilação/depilindex2.html">Depilação a cera</a></li>
+                        <li><a href="manicure/manindex.html">Manicure</a></li>
+                        <li><a href="esteticafacial/faceindex.html">Estetica Facial</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner"> 
+        <div class="wrapper">
+            <div class="slide-wrapper" data-slide="wrapper">
+                <button class="slide-nav-button slide-nav-previous fas fa-chevron-left" data-slide="nav-previous-button"></button>
+                <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+                <div class="slide-list" data-slide="list">
+                    <div class="slide-item" data-slide="item" data-index="0">
+                        <div class="slide-content">
+                            <img class="slide-image" src="imgs/assassinscreed.png" alt="Assassin's Creed" />
+                            <div class="slide-description">
+                                <h3>Lorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-item" data-slide="item" data-index="1">
+                        <div class="slide-content">
+                            <img class="slide-image" src="imgs/fortnite.png" alt="Fortnite" />
+                            <div class="slide-description">
+                                <h3>Lorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-item" data-slide="item" data-index="2">
+                        <div class="slide-content">
+                            <img class="slide-image" src="imgs/gta-v.png" alt="Freefire" />
+                            <div class="slide-description">
+                                <h3>Lorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-item" data-slide="item" data-index="3">
+                        <div class="slide-content">
+                            <img class="slide-image" src="imgs/league-of-legends.png" alt="GTA V" />
+                            <div class="slide-description">
+                                <h3>Lorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-item" data-slide="item" data-index="4">
+                        <div class="slide-content">
+                            <img class="slide-image" src="imgs/halo5.png" alt="Halo 5" />
+                            <div class="slide-description">
+                                <h3>Lorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-item" data-slide="item" data-index="5">
+                        <div class="slide-content">
+                            <img class="slide-image" src="imgs/red-dead-redemption-2.png" alt="League of Legends" />
+                            <div class="slide-description">
+                                <h3>Lorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-item" data-slide="item" data-index="6">
+                        <div class="slide-content">
+                            <img class="slide-image" src="imagens/bannerdonna2.jpg" alt="Red Dead Redemption 2" />
+                            <div class="slide-description">
+                                <h3>RLorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-item" data-slide="item" data-index="7">
+                        <div class="slide-content">
+                            <img class="slide-image" src="imagens/rosto.png" alt="Zelda" />
+                            <div class="slide-description">
+                                <h3>Lorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-controls" data-slide="controls-wrapper">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <div class="agendamento">
+                <h1>Faça já seu agendamento</h1>
+                <h2>Agende agora mesmo pelo nosso whatswapp, é rapido e facil.</h2>
+                <a href="https://wa.me/5521985651026" target="_blank">
+                    <button>Agendar</button>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container_footer">
+            <div class="footer_menu">
+                <div class="area1">
+                    <span><a href=""><img src="imagens/donna logo pronto.jpg"></a></span>
+                    <p>
+                        Somos uma rede focada no atendimento de qualidade, tendo um atendimento 
+                        flexibilizado, onde trabalhamos com agendamento e encaixe a qualque momento, para você nunca deixar de ficar
+                        em dia com si mesma.
+                    </p>
+                </div>
+                <div class="area2">
+                    <div class="tittle_text">
+                        <div class="widgte_tittle_text">Atendimento</div>
+                        <div class="widgte_tittle_bar"></div>
+                        <div class="widget_body">
+
+                            <a href="https://wa.me/5521985651026" target="_blank">
+                                <span class="icones"><i class="fa-brands fa-whatsapp"></i></span>
+                            </a>
+
+                            <a href="https://wa.me/5521985651026" target="_blank">
+                                <span class="numero_contato">(21) 98565 1026</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="area3">
+                    <div class="tittle_text">
+                        <div class="widgte_tittle_text">Nos acompanhe</div>
+                        <div class="widgte_tittle_bar"></div>
+                        <div class="widget_body">
+
+                            <a href="https://instagram.com/oficialmentedonna?igshid=YmMyMTA2M2Y=" target="_blank">
+                                <span class="icones"><i class="fa-brands fa-instagram"></i></span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <footer class="copy">
+        <div>
+            Copyright 2022 - <span> Donna </span>by <span>Alex Bile</span>.
+        </div>
+    </footer>
+
+    <!--boão wpp-->
+    <a class="wpp-link" href="https://wa.me/5521985651026" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    
+    <script src="js/slides.js"></script>
+    <script>
+        initSlider({
+            autoPlay: true,
+            startAtIndex: 0,
+            timeInterval: 4000
+        })
+    </script>
+</body>
+</html>
