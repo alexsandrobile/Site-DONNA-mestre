@@ -94,6 +94,7 @@ nav a:hover {
 .container .top_banner {
     display: flex;
     flex-direction: row;
+    margin-top: 130px;
 }
 
 .text_area,
